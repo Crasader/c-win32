@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="430,330">
+    <Font name="宋体" size="50" bold="false" italic="true" />
+    <Font name="��������1" size="5" bold="false" italic="true" />
+    <Font name="@黑体" size="56" bold="true" italic="false" />
+    <Font name="黑体" size="11" bold="false" italic="false" />
+    <Font name="@仿宋" size="16" bold="false" italic="false" />
+    <VerticalLayout width="430" height="330" bkimage="file=&apos;62361818_p0.png&apos; fade=&apos;233&apos;">
+        <HorizontalLayout width="430" height="180">
+            <Label name="SkinHeader" text="DIO" float="true" pos="168,67,0,0" width="95" height="46" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+            <Label name="ExitLabel" text="×" float="true" pos="398,10,0,0" width="22" height="23" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" font="4" />
+        </HorizontalLayout>
+        <HorizontalLayout width="430" bkimage="file=&apos;白纸.png&apos; fade=&apos;136&apos;">
+            <Button name="Sign" float="true" pos="117,104,0,0" width="196" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="QQ截图20171001211123.png" hotimage="QQ截图20171001211159.png" pushedimage="QQ截图20171001223737.png" />
+            <Edit name="AccountNum" bordersize="1" float="true" pos="118,16,0,0" width="195" height="30" bkcolor="#FFFFFFFF" bordercolor="#00A0A0A4" focusbordercolor="#0057FFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Edit name="Accountcode" bordersize="1" float="true" pos="118,46,0,0" width="195" height="30" bkcolor="#FFFFFFFF" bordercolor="#00A0A0A4" focusbordercolor="#0057FFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" password="true" />
+            <Text name="CreateAccount" text="注册账号" float="true" pos="328,25,0,0" width="60" height="21" textpadding="2,0,2,0" textcolor="#000080FF" disabledtextcolor="#FFA7A6AA" font="3" align="wrap" />
+            <Text name="ForgetCode" text="忘记密码" float="true" pos="328,54,0,0" width="60" height="22" textpadding="2,0,2,0" textcolor="#000080FF" disabledtextcolor="#FFA7A6AA" font="3" align="wrap" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

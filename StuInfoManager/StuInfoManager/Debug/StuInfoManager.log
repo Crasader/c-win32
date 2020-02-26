@@ -1,0 +1,8 @@
+﻿  main.cpp
+d:\po\项目\stuinfomanager\stuinfomanager\main.cpp(10): warning C4005: “testsize”: 宏重定义
+  d:\po\项目\stuinfomanager\stuinfomanager\studatastorage.h(6): note: 参见“testsize”的前一个定义
+  Parser.cpp
+  FuncTable.cpp
+  正在生成代码...
+  StuInfoManager.vcxproj -> D:\po\项目\StuInfoManager\Debug\StuInfoManager.exe
+  StuInfoManager.vcxproj -> D:\po\项目\StuInfoManager\Debug\StuInfoManager.pdb (Full PDB)

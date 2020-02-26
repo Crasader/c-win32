@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="380,250">
+    <VerticalLayout>
+        <HorizontalLayout height="75" bkimage="无标题.png">
+            <Button width="25" height="25" padding="355,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" hotimage="QQ截图20171018202655.jpg" />
+            <Text float="true" pos="105,0,0,0" width="171" height="9" textpadding="2,0,2,0" align="wrap" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

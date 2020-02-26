@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="430,330" caption="0,0,0,180">
+	<Font id="0" name="宋体" size="50" italic="true"/>
+	<Font id="1" name="��������1" size="5" italic="true"/>
+	<Font id="2" name="@黑体" size="56" bold="true"/>
+	<Font id="3" name="黑体" size="11"/>
+	<Font id="4" name="@仿宋" size="16"/>
+	<VerticalLayout pos="0,0,430,330" bkimage="file='62361818_p0.png' fade='233'">
+		<HorizontalLayout pos="0,0,430,180">
+			<Label name="SkinHeader" pos="168,67,263,113" float="true" bkimage="BtnHeader.png" align="center" font="2" textcolor="#00FFFBF0"/>
+			<Button name="BtnExit" pos="395,6,420,31" float="true" text="×" font="4" textcolor="#00FFFFFF"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,430,0" bkimage="file='白纸.png' fade='136'">
+			<Button name="Sign" pos="117,104,313,134" float="true" normalimage="QQ截图20171001211123.png" hotimage="QQ截图20171001211159.png" pushedimage="QQ截图20171001223737.png"/>
+			<Edit name="AccountNum" pos="118,16,313,46" float="true" bordercolor="#00A0A0A4" focusbordercolor="#0057FFFF" bordersize="1"/>
+			<Edit name="Accountcode" pos="118,46,313,76" float="true" bordercolor="#00A0A0A4" focusbordercolor="#0057FFFF" bordersize="1" password="true"/>
+			<Button name="AccountCreate" pos="328,21,388,42" float="true" text="注册账号" font="3" textcolor="#000080FF"/>
+			<Button name="ForgetCode" pos="328,52,388,73" float="true" text="忘记密码" font="3" textcolor="#000080FF"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
+

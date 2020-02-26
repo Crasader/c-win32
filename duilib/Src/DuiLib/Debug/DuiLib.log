@@ -1,0 +1,101 @@
+﻿Build started 2016/6/6 15:18:02.
+     1>Project "E:\project\cef_test\duilib\Src\DuiLib\DuiLib.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\DuiLib.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\DuiLib.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Control\UIAnimation.cpp Control\UIGifAnim.cpp Control\UIMenu.cpp Control\WkeWebkit.cpp Core\DuiLangManager.cpp Layout\UIAnimationTabLayout.cpp UIlib.cpp Utils\UIShadow.cpp Utils\WinImplBase.cpp Utils\UIDelegate.cpp Utils\Utils.cpp Core\UIBase.cpp Core\UIContainer.cpp Core\UIControl.cpp Core\UIDlgBuilder.cpp Core\UIManager.cpp Core\UIMarkup.cpp Core\UIRender.cpp Layout\UIChildLayout.cpp Layout\UIHorizontalLayout.cpp Layout\UITabLayout.cpp Layout\UITileLayout.cpp Layout\UIVerticalLayout.cpp Control\UIActiveX.cpp Control\UIButton.cpp Control\UICombo.cpp Control\UIComboBox.cpp Control\UIDateTime.cpp Control\UIEdit.cpp Control\UIFlash.cpp Control\UILabel.cpp Control\UIList.cpp Control\UIOption.cpp Control\UIProgress.cpp Control\UIRichEdit.cpp Control\UIScrollBar.cpp Control\UISlider.cpp Control\UIText.cpp Control\UITreeView.cpp Control\UIWebBrowser.cpp
+         UIWebBrowser.cpp
+         UITreeView.cpp
+         UIText.cpp
+         UISlider.cpp
+         UIScrollBar.cpp
+         UIRichEdit.cpp
+         UIProgress.cpp
+         UIOption.cpp
+         UIList.cpp
+         UILabel.cpp
+         UIFlash.cpp
+         UIEdit.cpp
+         UIDateTime.cpp
+         UIComboBox.cpp
+         UICombo.cpp
+         UIButton.cpp
+         UIActiveX.cpp
+         UIVerticalLayout.cpp
+         UITileLayout.cpp
+         UITabLayout.cpp
+         Generating Code...
+         Compiling...
+         UIHorizontalLayout.cpp
+         UIChildLayout.cpp
+         UIRender.cpp
+         UIMarkup.cpp
+         UIManager.cpp
+         UIDlgBuilder.cpp
+         UIControl.cpp
+         UIContainer.cpp
+         UIBase.cpp
+         Utils.cpp
+         UIDelegate.cpp
+         WinImplBase.cpp
+         UIShadow.cpp
+         UIlib.cpp
+         UIAnimationTabLayout.cpp
+         DuiLangManager.cpp
+         WkeWebkit.cpp
+         UIMenu.cpp
+         UIGifAnim.cpp
+         UIAnimation.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Utils\XUnzip.cpp
+         XUnzip.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\cef_test\duilib\Src\Debug\DuiLib.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\project\cef_test\duilib\Src\Debug\DuiLib.pdb" /TLBID:1 /BASE:"0x11000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Lib\Debug\DuiLib.lib" /MACHINE:X86 /SAFESEH /DLL Debug\UIAnimation.obj
+         Debug\UIGifAnim.obj
+         Debug\UIMenu.obj
+         Debug\WkeWebkit.obj
+         Debug\DuiLangManager.obj
+         Debug\UIAnimationTabLayout.obj
+         Debug\StdAfx.obj
+         Debug\UIlib.obj
+         Debug\UIShadow.obj
+         Debug\WinImplBase.obj
+         Debug\UIDelegate.obj
+         Debug\Utils.obj
+         Debug\XUnzip.obj
+         Debug\UIBase.obj
+         Debug\UIContainer.obj
+         Debug\UIControl.obj
+         Debug\UIDlgBuilder.obj
+         Debug\UIManager.obj
+         Debug\UIMarkup.obj
+         Debug\UIRender.obj
+         Debug\UIChildLayout.obj
+         Debug\UIHorizontalLayout.obj
+         Debug\UITabLayout.obj
+         Debug\UITileLayout.obj
+         Debug\UIVerticalLayout.obj
+         Debug\UIActiveX.obj
+         Debug\UIButton.obj
+         Debug\UICombo.obj
+         Debug\UIComboBox.obj
+         Debug\UIDateTime.obj
+         Debug\UIEdit.obj
+         Debug\UIFlash.obj
+         Debug\UILabel.obj
+         Debug\UIList.obj
+         Debug\UIOption.obj
+         Debug\UIProgress.obj
+         Debug\UIRichEdit.obj
+         Debug\UIScrollBar.obj
+         Debug\UISlider.obj
+         Debug\UIText.obj
+         Debug\UITreeView.obj
+         Debug\UIWebBrowser.obj
+            Creating library ..\..\Lib\Debug\DuiLib.lib and object ..\..\Lib\Debug\DuiLib.exp
+         DuiLib.vcxproj -> E:\project\cef_test\duilib\Src\Debug\DuiLib.dll
+     1>Done Building Project "E:\project\cef_test\duilib\Src\DuiLib\DuiLib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.92

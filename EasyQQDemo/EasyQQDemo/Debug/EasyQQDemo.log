@@ -1,0 +1,32 @@
+﻿  stdafx.cpp
+d:\po\project\easyqqdemo\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(14): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(27): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(51): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(86): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(99): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.h(91): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.h(125): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.h(126): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.h(142): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+  UIListCommonDefine.cpp
+  EasyQQVerify.cpp
+  EasyQQSocket.cpp
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.cpp(116): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.cpp(124): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.cpp(169): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.cpp(211): warning C4101: “dwWritenSize”: 未引用的局部变量
+  EasyQQRegister.cpp
+  EasyQQMain.cpp
+  EasyQQLogin.cpp
+  EasyQQFriendList.cpp
+d:\po\project\easyqqdemo\easyqqdemo\easyqqfriendlist.cpp(252): warning C4477: “swprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const DuiLib::CDuiString”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqfriendlist.cpp(291): warning C4477: “swprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const DuiLib::CDuiString”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqfriendlist.cpp(320): warning C4477: “swprintf_s”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const DuiLib::CDuiString”
+  EasyQQDemo.cpp
+  EasyQQChatBox.cpp
+  EasyQQAddFriend.cpp
+  正在生成代码...
+  EasyQQDemo.vcxproj -> D:\po\project\EasyQQDemo\Debug\EasyQQDemo.exe
+  EasyQQDemo.vcxproj -> D:\po\project\EasyQQDemo\Debug\EasyQQDemo.pdb (Full PDB)
+  已复制         1 个文件。

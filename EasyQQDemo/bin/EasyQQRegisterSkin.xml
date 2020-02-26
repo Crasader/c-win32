@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="363,454" sizebox="0,0,0,57">
+	<VerticalLayout pos="0,0,363,454">
+		<HorizontalLayout pos="0,0,364,57" bkimage="header1.png"/>
+		<HorizontalLayout pos="0,0,363,397" bkimage="背景1.png">
+			<Edit name="AccountBox" pos="156,71,271,101" float="true"/>
+			<Text pos="83,80,137,94" float="true" text="账号：" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"/>
+			<Edit name="CodeBox" pos="156,121,271,151" float="true" password="true"/>
+			<Text pos="83,130,137,144" float="true" text="密码：" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"/>
+			<Edit name="AffirmBox" pos="156,173,271,203" float="true" password="true"/>
+			<Text pos="83,182,147,196" float="true" text="重复密码：" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"/>
+			<Button name="Affirm" pos="74,259,146,291" float="true" normalimage="BtnCenter.png" pushedimage="BtnCenter1.png"/>
+			<Button name="Cancel" pos="229,259,301,291" float="true" normalimage="BtnCancel.png" pushedimage="BtnCancel1.png"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
+

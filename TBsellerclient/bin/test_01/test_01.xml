@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="1200,800" caption="0,0,0,30" roundcorner="5,5" mininfo="1200,800">
+	<Font id="0" name="宋体" size="13" bold="true"/>
+	<Font id="1" name="宋体" size="12" bold="true"/>
+	<Font id="2" name="宋体" size="12"/>
+	<Font id="3" name="宋体" size="14" bold="true"/>
+	<Font id="4" name="微软雅黑" size="18" bold="true"/>
+	<VerticalLayout name="VerticalLayoutUI1" bkcolor="#FFE9EBEE">
+		<HorizontalLayout name="HorizontalLayoutUI1" pos="0,0,0,30">
+			<HorizontalLayout name="HorizontalLayoutUI2" padding="0,8,0,0">
+				<Label name="Title" text="淘问鼎工具箱" align="center" font="4"/>
+			</HorizontalLayout>
+			<HorizontalLayout name="HorizontalLayoutUI3" pos="0,0,100,0">
+				<Button name="minbtn" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_min.png' source='52,0,78,17'" hotimage="file='sys_dlg_min.png' source='26,0,52,17'" pushedimage="file='sys_dlg_min.png' source='0,0,26,17'"/>
+				<Button name="maxbtn" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_max.png' source='52,0,78,17'" hotimage="file='sys_dlg_max.png' source='26,0,52,18'" pushedimage="file='sys_dlg_max.png' source='0,0,26,17'"/>
+				<Button name="restorebtn" maxwidth="26" maxheight="17" visible="false" textcolor="#00000000" disabledtextcolor="#00000000" normalimage="file='sys_dlg_restore.png' source='52,0,78,17'" hotimage="file='sys_dlg_restore.png' source='26,0,52,17'" pushedimage="file='sys_dlg_restore.png' source='0,0,26,17'"/>
+				<Button name="closebtn" maxwidth="45" maxheight="17" normalimage="file='sys_dlg_close.png' source='90,0,135,17'" hotimage="file='sys_dlg_close.png' source='45,0,90,17'" pushedimage="file='sys_dlg_close.png' source='0,0,45,17'"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout name="HorizontalLayoutUI4" pos="0,0,0,30">
+			<HorizontalLayout name="HorizontalLayoutUI5" padding="0,8,0,0">
+				<Text name="TextUI1" padding="10,5,0,0" maxwidth="40" text="网址:" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"/>
+				<Edit name="url" padding="5,0,0,0" bkimage="searchbknormal.png" maxheight="22" text="www.hao123.com"/>
+				<Button name="Nav" padding="5,0,0,0" bkimage="button_n.png" maxwidth="50" maxheight="22" text="导航" tooltip="跳转至该网页"/>
+				<Button name="refreshbtnr" padding="2,0,0,0" bkimage="refreshbtnr.png" maxwidth="41" maxheight="22" tooltip="重新载入此页" normalimage="refreshbtnr_normal.png" hotimage="refreshbtnr_hover.png" pushedimage="refreshbtnr_pushed.png" focusedimage="refreshbtnr_pushed.png"/>
+				<Button name="Forward" pos="0,0,41,22" padding="2,0,0,0" maxwidth="41" maxheight="22" tooltip="前进" normalimage="Forward_nomal.png" hotimage="Forward_hover.png" pushedimage="Forward_pushed.png" disabledimage="Forward_disable.png" focusedimage="Forward_pushed.png"/>
+				<Button name="Back" pos="0,0,41,22" padding="2,0,0,0" maxwidth="41" maxheight="22" tooltip="返回上一页" normalimage="Back_normal.png" hotimage="Back_hover.png" pushedimage="Back_pushed.png" disabledimage="Back_disable.png" focusedimage="Back_pushed.png"/>
+				<Button name="search_gosearch_go" pos="0,0,36,21" bkimage="button_n.png" text="搜索"/>
+				<Button name="Main_Type" pos="0,0,36,21" padding="1,0,0,0" bkimage="button_n.png" text="主页" tooltip="点击打开主页"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		<Label name="LabelUI1" pos="0,0,0,10"/>
+		<HorizontalLayout name="tabswitch" pos="0,0,0,30">
+			<Option name="IE_1" pos="0,0,100,30" text="www.baidu.com" textcolor="#00000000" textpadding="0,2,0,0" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" group="demo_list_header" selected="true" selectedimage="tabbar_pushed.png"/>
+			<Option name="Add" pos="0,0,30,30" text=" + " tooltip="添加新页签" normalimage="tabbar_normal1.png" hotimage="tabbar_hover1.png" pushedimage="tabbar_pushed1.png" group="demo_list_header" selectedimage="tabbar_pushed1.png"/>
+		</HorizontalLayout>
+		<TabLayout name="switch" selectedid="0">
+			<HorizontalLayout name="HorBrowser"/>
+		</TabLayout>
+		<Label name="statusbar" maxheight="30"/>
+	</VerticalLayout>
+</Window>
+

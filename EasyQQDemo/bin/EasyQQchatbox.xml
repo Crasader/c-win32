@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="400,555" caption="0,0,0,84">
+	<Font id="0" name="微软雅黑" size="20"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<VerticalLayout >
+		<HorizontalLayout pos="0,0,0,84" bkimage="chatheader.png">
+			<Label pos="99,0,299,12" float="true" bkimage="QQ截图20171007160859.png"/>
+			<Button name="closebtn" pos="373,2,398,27" float="true" normalimage="closebtnskin1.png" hotimage="closebtnskin2.png" pushedimage="closebtnskin3.png"/>
+			<Label name="accountLogo" pos="29,16,80,67" float="true" bkimage="accountui.png"/>
+			<Text name="nicknametext" pos="88,24,188,49" float="true" text="部落之子" font="0" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA"/>
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,0,350" bkimage="C:\Users\Administrator\Desktop\DUILIB\chatbox\chateditbk.png">
+			<RichEdit name="view_richedit" bkimage="chateditbk.png" vscrollbar="true" hscrollbar="true" textcolor="#FFFFFFFF" autovscroll="true" readonly="true"/>
+		</HorizontalLayout>
+		<HorizontalLayout bkimage="chatheader.png">
+			<RichEdit name="input_richedit" pos="11,9,391,91" float="true" bkcolor="#FF1D222C" bordercolor="#FF3D4656" focusbordercolor="#FF1D5E98" bordersize="1" vscrollbar="true" hscrollbar="true" font="1" textcolor="#FFFFFFFF" autovscroll="true" wantctrlreturn="false" rich="false"/>
+		</HorizontalLayout>
+	</VerticalLayout >
+</Window>
+

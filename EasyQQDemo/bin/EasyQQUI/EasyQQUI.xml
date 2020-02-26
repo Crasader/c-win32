@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="362,720">
+	<Font id="0" name="微软雅黑" size="20" bold="true"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<VerticalLayout name="bg" pos="0,0,362,720">
+		<HorizontalLayout pos="0,0,362,155" bkimage="无标题1.png">
+			<HorizontalLayout pos="0,0,362,80">
+				<Button name="closebtn" pos="334,3,359,28" float="true" font="1" normalimage="QQ截图20171007150031.png" hotimage="QQ截图20171007150049.png" pushedimage="QQ截图20171007150100.png"/>
+				<Label name="headlogo" pos="26,24,78,76" float="true" bkimage="QQ截图20171007150220.png"/>
+				<Label pos="82,1,280,14" float="true" bkimage="QQ截图20171007160859.png"/>
+				<HorizontalLayout pos="87,22,332,74" float="true">
+					<Button name="loginstate" pos="-2,27,50,53" float="true" normalimage="QQ图片20171012214807.jpg" hotimage="QQ图片20171012214824.jpg"/>
+					<Text name="MainNickname" pos="0,0,177,26" text="部落之子" font="0" textcolor="#0FFFFFFF" disabledtextcolor="#FFA7A6AA"/>
+				</HorizontalLayout>
+			</HorizontalLayout>
+			<HorizontalLayout pos="0,80,362,155" float="true" bkimage="func.png">
+				<Button name="AddFriends" pos="27,20,198,50" float="true" normalimage="QQ截图20171007145336.png" hotimage="QQ截图20171007145348.png" pushedimage="QQ截图20171007145400.png"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout name="friendpage" pos="0,0,362,536" bkimage="无标题.png" >
+			<FriendList name="friends" header="hidden" itemshowhtml="true" vscrollbar="true" />
+		</HorizontalLayout>
+		<HorizontalLayout pos="0,0,362,30" bkimage="无标题1.png"/>
+	</VerticalLayout>
+</Window>
+

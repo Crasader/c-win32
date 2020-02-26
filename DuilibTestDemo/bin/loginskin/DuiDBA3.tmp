@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="430,330">
+    <Font name="宋体" size="50" bold="false" italic="true" />
+    <Font name="��������1" size="5" bold="false" italic="true" />
+    <Font name="@黑体" size="56" bold="true" italic="false" />
+    <VerticalLayout width="430" height="330" bkimage="file=&apos;62361818_p0.png&apos; fade=&apos;204&apos;">
+        <HorizontalLayout width="430" height="180">
+            <Label text="Q Q" float="true" pos="168,67,0,0" width="95" height="46" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+        </HorizontalLayout>
+        <HorizontalLayout width="430" bkimage="file=&apos;白纸.png&apos; fade=&apos;136&apos;">
+            <Button float="true" pos="117,104,0,0" width="196" height="30" bkimage="QQ截图20171001211123.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

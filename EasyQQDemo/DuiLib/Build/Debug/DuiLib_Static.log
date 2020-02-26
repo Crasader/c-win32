@@ -1,0 +1,52 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (.\Build\Debug\) contains files shared from another project (DuiLib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  WinImplBase.cpp
+  Utils.cpp
+  UIDelegate.cpp
+  UIlib.cpp
+  UIVerticalLayout.cpp
+Layout\UIVerticalLayout.cpp(306): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UITileLayout.cpp
+  UITabLayout.cpp
+  UIHorizontalLayout.cpp
+Layout\UIHorizontalLayout.cpp(313): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UIChildLayout.cpp
+  UIRender.cpp
+Core\UIRender.cpp(1188): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UIMarkup.cpp
+  UIManager.cpp
+Core\UIManager.cpp(1045): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  UIDlgBuilder.cpp
+  UIControl.cpp
+Core\UIControl.cpp(832): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UIContainer.cpp
+  UIBase.cpp
+  UIWebBrowser.cpp
+  UITreeView.cpp
+  UIText.cpp
+Control\UIText.cpp(52): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UISlider.cpp
+Control\UISlider.cpp(212): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UIScrollBar.cpp
+  UIRichEdit.cpp
+  UIProgress.cpp
+  UIOption.cpp
+  UIList.cpp
+Control\UIList.cpp(1780): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+Control\UIList.cpp(2416): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UILabel.cpp
+  UIGifAnim.cpp
+  UIEdit.cpp
+Control\UIEdit.cpp(288): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UIDateTime.cpp
+Control\UIDateTime.cpp(297): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UICombo.cpp
+  UICheckBox.cpp
+  UIButton.cpp
+Control\UIButton.cpp(127): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UIActiveX.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(D:\duilib\duilib-master\DuiLib\.\Build\Debug\DuiLib_Static.lib) does not match the Library's OutputFile property value (D:\duilib\duilib-master\DuiLib\Build\Debug\DuiLib_Static_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(DuiLib_Static) does not match the Library's OutputFile property value (DuiLib_Static_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  DuiLib_Static.vcxproj -> D:\duilib\duilib-master\DuiLib\.\Build\Debug\DuiLib_Static.lib

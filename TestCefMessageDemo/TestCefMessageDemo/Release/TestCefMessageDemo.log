@@ -1,0 +1,28 @@
+﻿MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: static bool __cdecl CefBrowserHost::CreateBrowser(class CefWindowInfo const &,class CefRefPtr<class CefClient>,class CefStringBase<struct CefStringTraitsUTF16> const &,class CefStructBase<struct CefBrowserSettingsTraits> const &,class CefRefPtr<class CefRequestContext>)" (?CreateBrowser@CefBrowserHost@@SA_NABVCefWindowInfo@@V?$CefRefPtr@VCefClient@@@@ABV?$CefStringBase@UCefStringTraitsUTF16@@@@ABV?$CefStructBase@UCefBrowserSettingsTraits@@@@V?$CefRefPtr@VCefRequestContext@@@@@Z)
+MainWnd.obj : error LNK2001: 无法解析的外部符号 "public: static class CefRefPtr<class CefProcessMessage> __cdecl CefProcessMessage::Create(class CefStringBase<struct CefStringTraitsUTF16> const &)" (?Create@CefProcessMessage@@SA?AV?$CefRefPtr@VCefProcessMessage@@@@ABV?$CefStringBase@UCefStringTraitsUTF16@@@@@Z)
+SimpleApp.obj : error LNK2001: 无法解析的外部符号 "public: static class CefRefPtr<class CefV8Value> __cdecl CefV8Value::CreateFunction(class CefStringBase<struct CefStringTraitsUTF16> const &,class CefRefPtr<class CefV8Handler>)" (?CreateFunction@CefV8Value@@SA?AV?$CefRefPtr@VCefV8Value@@@@ABV?$CefStringBase@UCefStringTraitsUTF16@@@@V?$CefRefPtr@VCefV8Handler@@@@@Z)
+SimpleApp.obj : error LNK2001: 无法解析的外部符号 "public: static class CefRefPtr<class CefV8Value> __cdecl CefV8Value::CreateString(class CefStringBase<struct CefStringTraitsUTF16> const &)" (?CreateString@CefV8Value@@SA?AV?$CefRefPtr@VCefV8Value@@@@ABV?$CefStringBase@UCefStringTraitsUTF16@@@@@Z)
+SimpleApp.obj : error LNK2001: 无法解析的外部符号 "public: static class CefRefPtr<class CefV8Value> __cdecl CefV8Value::CreateInt(int)" (?CreateInt@CefV8Value@@SA?AV?$CefRefPtr@VCefV8Value@@@@H@Z)
+SimpleApp.obj : error LNK2001: 无法解析的外部符号 "public: static class CefRefPtr<class CefV8Context> __cdecl CefV8Context::GetCurrentContext(void)" (?GetCurrentContext@CefV8Context@@SA?AV?$CefRefPtr@VCefV8Context@@@@XZ)
+Source.obj : error LNK2001: 无法解析的外部符号 "bool __cdecl CefInitialize(class CefMainArgs const &,class CefStructBase<struct CefSettingsTraits> const &,class CefRefPtr<class CefApp>,void *)" (?CefInitialize@@YA_NABVCefMainArgs@@ABV?$CefStructBase@UCefSettingsTraits@@@@V?$CefRefPtr@VCefApp@@@@PAX@Z)
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_register_widevine_cdm
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_enable_highdpi_support
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_crash_reporting_enabled
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_set_crash_key_value
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_create_directory
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_get_temp_directory
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_create_new_temp_directory
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_create_temp_directory_in_directory
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_directory_exists
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_delete_file
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_zip_directory
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_format_url_for_security_display
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_parse_json
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_parse_jsonand_return_error
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_write_json
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_is_cert_status_error
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : error LNK2001: 无法解析的外部符号 _cef_is_cert_status_minor_error
+libcef_dll_wrapper.lib(request_context_ctocpp.obj) : error LNK2001: 无法解析的外部符号 _cef_create_context_shared
+libcef_dll_wrapper.lib(image_ctocpp.obj) : error LNK2001: 无法解析的外部符号 _cef_image_create
+libcef_dll_wrapper.lib(menu_model_ctocpp.obj) : error LNK2001: 无法解析的外部符号 _cef_menu_model_create
+D:\po\project\TestCefMessageDemo\Release\TestCefMessageDemo.exe : fatal error LNK1120: 27 个无法解析的外部命令

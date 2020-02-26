@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="800,80" disabledfontcolor="#FF696969">
+	<Font id="0" name="微软雅黑" size="60" bold="true"/>
+	<VerticalLayout bkcolor="#FF404040">
+		<Label name="HintText" text="BEGIN MEMEORY" align="center" font="0" textcolor="#FFFFFFFF"/>
+	</VerticalLayout>
+</Window>
+

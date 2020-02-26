@@ -1,0 +1,5 @@
+﻿  SystemMemoryDemo.cpp
+d:\po\项目\systemmemorydemo\systemmemorydemo\systemmemorydemo.cpp(13): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“LPVOID”
+d:\po\项目\systemmemorydemo\systemmemorydemo\systemmemorydemo.cpp(14): warning C4477: “printf”: 格式字符串“%X”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“LPVOID”
+  SystemMemoryDemo.vcxproj -> D:\po\项目\SystemMemoryDemo\Debug\SystemMemoryDemo.exe
+  SystemMemoryDemo.vcxproj -> D:\po\项目\SystemMemoryDemo\Debug\SystemMemoryDemo.pdb (Full PDB)

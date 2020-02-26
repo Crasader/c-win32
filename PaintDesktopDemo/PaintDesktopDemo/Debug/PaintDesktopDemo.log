@@ -1,0 +1,6 @@
+﻿  PaintDesktopDemo.cpp
+d:\po\项目\paintdesktopdemo\paintdesktopdemo\paintdesktopdemo.cpp(23): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+d:\po\项目\paintdesktopdemo\paintdesktopdemo\paintdesktopdemo.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
+d:\po\项目\paintdesktopdemo\paintdesktopdemo\paintdesktopdemo.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+  PaintDesktopDemo.vcxproj -> D:\po\项目\PaintDesktopDemo\Debug\PaintDesktopDemo.exe
+  PaintDesktopDemo.vcxproj -> D:\po\项目\PaintDesktopDemo\Debug\PaintDesktopDemo.pdb (Full PDB)

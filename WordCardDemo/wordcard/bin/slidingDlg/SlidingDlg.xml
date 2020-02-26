@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="450,300">
+	<Font id="0" name="微软雅黑" size="50"/>
+	<Font id="1" name="微软雅黑" size="13"/>
+	<VerticalLayout >
+		<HorizontalLayout pos="0,0,0,150" bkcolor="#FF2D2D30" bordercolor="#FF3F3F46" bordersize="1">
+			<Text pos="21,41,430,109" float="true" text="supreme" align="center" font="0" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA"/>
+		</HorizontalLayout>
+		<HorizontalLayout bkcolor="#FF252526" bordercolor="#FF3F3F46" bordersize="1">
+			<Button name="selectBtn1" pos="33,30,213,60" float="true" bkcolor="#FF252526" bordercolor="#FF808080" bordersize="1" text="大厂牌" font="1" textcolor="#FFFFFFFF" normalimage="file='' source='0,0,96,24' corner='5,11,5,11'" hotimage="file='' source='0,24,96,48' corner='5,11,5,11'" pushedimage="file='' source='0,48,96,72' corner='5,11,5,11'" disabledimage="file='' source='0,72,96,96' corner='5,11,5,11'" hottextcolor="#00FFFFFF" pushedtextcolor="#0077A8DE"/>
+			<Button name="selectBtn1" pos="233,30,413,60" float="true" bkcolor="#FF252526" bordercolor="#FF808080" bordersize="1" text="惹不起惹不起" font="1" textcolor="#FFFFFFFF" normalimage="file='' source='0,0,96,24' corner='5,11,5,11'" hotimage="file='' source='0,24,96,48' corner='5,11,5,11'" pushedimage="file='' source='0,48,96,72' corner='5,11,5,11'" disabledimage="file='' source='0,72,96,96' corner='5,11,5,11'" hottextcolor="#00FFFFFF" pushedtextcolor="#0077A8DE"/>
+			<Button name="selectBtn1" pos="33,83,213,113" float="true" bkcolor="#FF252526" bordercolor="#FF808080" bordersize="1" text="贫穷限制我的想象力" font="1" textcolor="#FFFFFFFF" normalimage="file='' source='0,0,96,24' corner='5,11,5,11'" hotimage="file='' source='0,24,96,48' corner='5,11,5,11'" pushedimage="file='' source='0,48,96,72' corner='5,11,5,11'" disabledimage="file='' source='0,72,96,96' corner='5,11,5,11'" hottextcolor="#00FFFFFF" pushedtextcolor="#0077A8DE"/>
+			<Button name="selectBtn1" pos="233,83,413,113" float="true" bkcolor="#FF252526" bordercolor="#FF808080" bordersize="1" text="潮牌" font="1" textcolor="#FFFFFFFF" normalimage="file='' source='0,0,96,24' corner='5,11,5,11'" hotimage="file='' source='0,24,96,48' corner='5,11,5,11'" pushedimage="file='' source='0,48,96,72' corner='5,11,5,11'" disabledimage="file='' source='0,72,96,96' corner='5,11,5,11'" hottextcolor="#00FFFFFF" pushedtextcolor="#0077A8DE"/>
+		</HorizontalLayout>
+	</VerticalLayout >
+</Window>
+

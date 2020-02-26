@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="350,200" caption="0,0,0,125">
+	<Font id="0" name="黑体" size="20"/>
+	<Font id="1" name="微软雅黑" size="12"/>
+	<VerticalLayout >
+		<HorizontalLayout pos="0,0,0,125" bkimage="header2.png">
+			<Button name="closebtn" pos="323,3,348,28" float="true" bkimage="QQ截图20171018202640.jpg" normalimage="QQ截图20171018202640.jpg" hotimage="QQ截图20171018202655.jpg"/>
+			<Text name="username" pos="133,38,221,68" float="true"/>
+			<Text name="description" pos="30,72,330,102" float="true" text="请求加您为好友" font="0" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" textpadding="75,5,2,0"/>
+			<Label pos="0,0,150,7" padding="100,0,0,0" bkimage="QQ截图20171018202611.jpg"/>
+		</HorizontalLayout>
+		<HorizontalLayout bkimage="bk1.png">
+			<Button name="AcceptBtn" pos="32,17,167,52" float="true" bkimage="accept.png" normalimage="accept.png" hotimage="accept1.png"/>
+			<Button name="RejectBtn" pos="183,17,318,52" float="true" bkimage="拒绝无标题1.png" font="0" normalimage="拒绝无标题1.png" hotimage="拒绝无标题.png"/>
+		</HorizontalLayout>
+	</VerticalLayout >
+</Window>
+

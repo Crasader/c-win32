@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1200,800" caption="0,0,0,30" mininfo="1200,800" roundcorner="5,5">
+    <Font name="宋体" size="13" bold="true" italic="false" />
+    <Font name="宋体" size="12" bold="true" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" />
+    <Font name="宋体" size="14" bold="true" italic="false" />
+    <Font name="宋体" size="22" bold="true" italic="true" />
+    <VerticalLayout name="VerticalLayoutUI1" bkcolor="#FFE9EBEE">
+        <HorizontalLayout name="HorizontalLayoutUI1" height="30">
+            <HorizontalLayout name="HorizontalLayoutUI2" padding="0,8,0,0" />
+            <HorizontalLayout name="HorizontalLayoutUI3" width="100">
+                <Button name="minbtn" maxheight="17" maxwidth="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_min.png&apos; source=&apos;52,0,78,17&apos;" hotimage="file=&apos;sys_dlg_min.png&apos; source=&apos;26,0,52,17&apos;" pushedimage="file=&apos;sys_dlg_min.png&apos; source=&apos;0,0,26,17&apos;" />
+                <Button name="maxbtn" maxheight="17" maxwidth="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_max.png&apos; source=&apos;52,0,78,17&apos;" hotimage="file=&apos;sys_dlg_max.png&apos; source=&apos;26,0,52,18&apos;" pushedimage="file=&apos;sys_dlg_max.png&apos; source=&apos;0,0,26,17&apos;" />
+                <Button name="restorebtn" visible="false" maxheight="17" maxwidth="26" align="center" normalimage="file=&apos;sys_dlg_restore.png&apos; source=&apos;52,0,78,17&apos;" hotimage="file=&apos;sys_dlg_restore.png&apos; source=&apos;26,0,52,17&apos;" pushedimage="file=&apos;sys_dlg_restore.png&apos; source=&apos;0,0,26,17&apos;" />
+                <Button name="closebtn" maxheight="17" maxwidth="45" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_close.png&apos; source=&apos;90,0,135,17&apos;" hotimage="file=&apos;sys_dlg_close.png&apos; source=&apos;45,0,90,17&apos;" pushedimage="file=&apos;sys_dlg_close.png&apos; source=&apos;0,0,45,17&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout name="HorizontalLayoutUI4" height="30">
+            <HorizontalLayout name="HorizontalLayoutUI5" padding="0,8,0,0">
+                <Text name="TextUI1" text="网址:" padding="10,5,0,0" maxwidth="40" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+                <Edit name="url" text="www.hao123.com" padding="5,0,0,0" bkimage="searchbknormal.png" bkcolor="#FFFFFFFF" maxheight="22" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Button name="Nav" text="导航" tooltip="跳转至该网页" padding="5,0,0,0" bkimage="button_n.png" maxheight="22" maxwidth="50" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="refreshbtnr" tooltip="重新载入此页" padding="2,0,0,0" bkimage="refreshbtnr.png" maxheight="22" maxwidth="41" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="refreshbtnr_normal.png" hotimage="refreshbtnr_hover.png" pushedimage="refreshbtnr_pushed.png" focusedimage="refreshbtnr_pushed.png" />
+                <Button name="Forward" tooltip="前进" width="41" height="22" padding="2,0,0,0" maxheight="22" maxwidth="41" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="Forward_nomal.png" hotimage="Forward_hover.png" pushedimage="Forward_pushed.png" focusedimage="Forward_pushed.png" disabledimage="Forward_disable.png" />
+                <Button name="Back" tooltip="返回上一页" width="41" height="22" padding="2,0,0,0" maxheight="22" maxwidth="41" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="Back_normal.png" hotimage="Back_hover.png" pushedimage="Back_pushed.png" focusedimage="Back_pushed.png" disabledimage="Back_disable.png" />
+                <Edit name="search_edit" text="请输入要搜索的关键字" tooltip="地址栏" width="382" height="21" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#00A0A0A4" disabledtextcolor="#FFA7A6AA" />
+                <Button name="search_gosearch_go" text="搜索" width="36" height="21" bkimage="button_n.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <Label name="LabelUI1" height="10" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <HorizontalLayout name="tabswitch" height="30">
+            <Option name="IE_1" text="www.baidu.com" width="100" height="30" bkimage="bg3.png" textpadding="0,2,0,0" disabledtextcolor="#FFA7A6AA" align="center" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" group="demo_list_header" selected="true" selectedimage="tabbar_pushed.png" />
+            <Option name="Add" text=" + " tooltip="添加新页签" width="30" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="tabbar_normal1.png" hotimage="tabbar_hover1.png" pushedimage="tabbar_pushed1.png" group="demo_list_header" selectedimage="tabbar_pushed1.png" />
+        </HorizontalLayout>
+        <TabLayout name="switch">
+            <HorizontalLayout name="HorBrowser" />
+        </TabLayout>
+        <Label name="statusbar" maxheight="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+    </VerticalLayout>
+</Window>

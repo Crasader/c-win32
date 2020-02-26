@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (.\Build\Debug\) contains files shared from another project (DuiLib_Static.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  WndShadow.cpp
+Utils\WndShadow.cpp(29): error C2858: 命令行选项“程序数据库名 (/FdD:\duilib\duilib-master\DuiLib\Build\Debug\vc140.pdb)”与使用“/FdD:\duilib\duilib-master\DuiLib\Build\Debug\DuiLib_Static.pdb”的预编译头不一致
+Utils\WndShadow.cpp(29): error C2859: D:\duilib\duilib-master\DuiLib\Build\Debug\vc140.pdb 不是创建此预编译头时使用的 pdb 文件，请重新创建预编译头。
+Utils\WndShadow.cpp(29): error C2859: D:\duilib\duilib-master\DuiLib\Build\Debug\vc140.idb 不是创建此预编译头时使用的 idb 文件，请重新创建预编译头。
+Utils\WndShadow.cpp(29): warning C4651: 为预编译头，而非为当前编译指定“/DUILIB_STATIC”

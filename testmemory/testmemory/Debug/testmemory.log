@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  testmemory.cpp
+d:\po\项目\testmemory\testmemory\testmemory.cpp(24): error C2664: “BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)”: 无法将参数 2 从“char [48]”转换为“LPWSTR”
+  d:\po\项目\testmemory\testmemory\testmemory.cpp(24): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+d:\po\项目\testmemory\testmemory\testmemory.cpp(32): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\po\项目\testmemory\testmemory\testmemory.cpp(47): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\po\项目\testmemory\testmemory\testmemory.cpp(58): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\po\项目\testmemory\testmemory\testmemory.cpp(82): error C4996: 'GetVersionExW': 被声明为已否决
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: 参见“GetVersionExW”的声明
+d:\po\项目\testmemory\testmemory\testmemory.cpp(177): error C2084: 函数“int main(int,char *[])”已有主体
+  d:\po\项目\testmemory\testmemory\testmemory.cpp(17): note: 参见“main”的前一个定义

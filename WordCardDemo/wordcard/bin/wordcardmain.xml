@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="700,650" caption="0,0,0,30">
+	<Font id="0" name="微软雅黑" size="20"/>
+	<Font id="1" name="微软雅黑" size="16"/>
+	<VerticalLayout bkimage="file='' mask='0xFFFFFFF'">
+		<HorizontalLayout pos="0,0,0,30" bordercolor="#FF3F3F46" bordersize="1" bkimage="header2.png">
+			<Button name="closebtn" pos="668,6,688,26" float="true" normalimage="C:\Users\Administrator\Desktop\DUILIB\wordcard\close (1).png" hotimage="C:\Users\Administrator\Desktop\DUILIB\wordcard\close (2).png" pushedimage="C:\Users\Administrator\Desktop\DUILIB\wordcard\close (3).png" disabledimage="file='Button/btn.png' corner='5,11,5,11' source='0,72,96,96'" hottextcolor="#00FFFFFF" pushedtextcolor="#0077A8DE"/>
+		</HorizontalLayout>
+		<HorizontalLayout bkcolor="#FF252526" bordercolor="#FF313133" bordersize="2">
+			<HorizontalLayout pos="0,0,350,0" bordercolor="#FF808080" bordersize="1">
+				<List name="wordcardlist" vscrollbar="true" itemtextcolor="#FFFFFFFF">
+					<ListHeader >
+						<ListHeaderItem name="worditemInfo" pos="0,0,150,0" text="单词" textcolor="#FFFFFFFF"/>
+						<ListHeaderItem name="wordmeanItemInfo" text="意思" textcolor="#FFFFFFFF"/>
+					</ListHeader >
+				</List>
+			</HorizontalLayout>
+			<HorizontalLayout >
+				<VerticalLayout pos="0,0,350,310" bordercolor="#FF808080" bordersize="1"/>
+				<VerticalLayout pos="0,310,350,620" float="true" bordercolor="#FF808080" bordersize="1">
+					<Edit name="Tgttimeedit" pos="182,63,247,93" float="true" bkcolor="#FF333337" bordercolor="#FFA9A9A9" bordersize="1" font="1" textcolor="#FFFFFFFF" numberonly="true" nativebkcolor="#FF333337"/>
+					<Text pos="45,63,193,93" float="true" text="希望多久完成" font="0" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA"/>
+					<Text pos="255,63,301,93" float="true" text="天" font="0" textcolor="#0FFFFFFF" disabledtextcolor="#FFA7A6AA"/>
+					<Button name="startfuncbtn" pos="120,128,223,159" float="true" bordercolor="#FF808080" bordersize="2" text="开始背诵" font="0" textcolor="#FFFFFFFF" normalimage="file='' source='0,0,96,24' corner='5,11,5,11'" hotimage="file='' source='0,24,96,48' corner='5,11,5,11'" pushedimage="file='' source='0,48,96,72' corner='5,11,5,11'" disabledimage="file='' source='0,72,96,96' corner='5,11,5,11'" hottextcolor="#00FFFFFF" pushedtextcolor="#0077A8DE"/>
+					<Button name="hidewordmeanbtn" pos="38,184,139,215" float="true" bordercolor="#FF808080" bordersize="2" text="遮蔽中文" font="0" textcolor="#FFFFFFFF" normalimage="file='' source='0,0,96,24' corner='5,11,5,11'" hotimage="file='' source='0,24,96,48' corner='5,11,5,11'" pushedimage="file='' source='0,48,96,72' corner='5,11,5,11'" disabledimage="file='' source='0,72,96,96' corner='5,11,5,11'" hottextcolor="#00FFFFFF" pushedtextcolor="#0077A8DE"/>
+					<Button name="hidewordbtn" pos="204,183,307,214" float="true" bordercolor="#FF808080" bordersize="2" text="遮蔽单词" font="0" textcolor="#FFFFFFFF" normalimage="file='' source='0,0,96,24' corner='5,11,5,11'" hotimage="file='' source='0,24,96,48' corner='5,11,5,11'" pushedimage="file='' source='0,48,96,72' corner='5,11,5,11'" disabledimage="file='' source='0,72,96,96' corner='5,11,5,11'" hottextcolor="#00FFFFFF" pushedtextcolor="#0077A8DE"/>
+					<Button name="reshowbtn" pos="124,242,225,273" float="true" bordercolor="#FF808080" bordersize="2" text="复原" font="0" textcolor="#FFFFFFFF" normalimage="file='' source='0,0,96,24' corner='5,11,5,11'" hotimage="file='' source='0,24,96,48' corner='5,11,5,11'" pushedimage="file='' source='0,48,96,72' corner='5,11,5,11'" disabledimage="file='' source='0,72,96,96' corner='5,11,5,11'" hottextcolor="#00FFFFFF" pushedtextcolor="#0077A8DE"/>
+				</VerticalLayout>
+			</HorizontalLayout >
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
+

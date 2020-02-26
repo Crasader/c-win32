@@ -1,0 +1,16 @@
+﻿  EasyQQSocket.cpp
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(14): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(27): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(51): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(86): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqdata.h(99): warning C4081: 应输入“(”；找到“newline”
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.h(91): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.h(125): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.h(126): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.h(142): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.cpp(116): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.cpp(124): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.cpp(169): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+d:\po\project\easyqqdemo\easyqqdemo\easyqqsocket.cpp(211): warning C4101: “dwWritenSize”: 未引用的局部变量
+  EasyQQServe.vcxproj -> D:\po\project\EasyQQDemo\Debug\EasyQQServe.exe
+  EasyQQServe.vcxproj -> D:\po\project\EasyQQDemo\Debug\EasyQQServe.pdb (Full PDB)

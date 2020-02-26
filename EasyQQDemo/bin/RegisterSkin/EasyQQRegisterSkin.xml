@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="363,454">
+    <VerticalLayout width="363" height="454">
+        <HorizontalLayout width="364" height="57" bkimage="header1.png" />
+        <HorizontalLayout width="363" height="397" bkimage="背景1.png">
+            <Edit name="AccountBox" float="true" pos="156,71,0,0" width="115" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Text text="账号：" float="true" pos="83,80,0,0" width="54" height="14" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+            <Edit name="CodeBox" float="true" pos="156,121,0,0" width="115" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" password="true" />
+            <Text text="密码：" float="true" pos="83,130,0,0" width="54" height="14" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+            <Edit name="AffirmBox" float="true" pos="156,173,0,0" width="115" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" password="true" />
+            <Text text="重复密码：" float="true" pos="83,182,0,0" width="64" height="14" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+            <Button name="Affirm" float="true" pos="74,259,0,0" width="72" height="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="BtnCenter.png" pushedimage="BtnCenter1.png" />
+            <Button name="Cancel" float="true" pos="229,259,0,0" width="72" height="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="BtnCancel.png" pushedimage="BtnCancel1.png" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

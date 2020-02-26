@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="430,330">
+    <VerticalLayout width="430" height="330" bkimage="file=&apos;C:\Users\Administrator\Desktop\cg\62361818_p0.png&apos; fade=&apos;223&apos;">
+        <HorizontalLayout width="426" height="181">
+            <Text name="SkinHeader" text="QQ" float="true" pos="69,60,0,0" width="288" height="60" relativepos="0,0,0,0" textpadding="2,0,2,0" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" align="centerwrap" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

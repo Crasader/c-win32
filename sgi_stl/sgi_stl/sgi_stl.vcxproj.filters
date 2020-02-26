@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sgi_stl">
+      <UniqueIdentifier>{8434fe81-8e21-4872-9d9d-adec046f0958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\algo.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\algobase.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\alloc.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\bvector.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\char_traits.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\concept_checks.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\container_concepts.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\defalloc.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\deque.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\function.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hash_map.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hash_set.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hashtable.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\heap.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\iterator.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\list.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\map.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\multimap.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\multiset.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\pair.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\pthread_alloc.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\rope.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\ropeimpl.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\sequence_concepts.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\set.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\slist.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stack.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_algo.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_algobase.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_alloc.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_bvector.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_config.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_construct.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_ctraits_fns.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_deque.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_exception.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_function.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_hash_fun.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_hash_map.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_hash_set.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_hashtable.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_heap.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_iterator.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_iterator_base.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_list.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_map.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_multimap.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_multiset.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_numeric.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_pair.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_queue.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_range_errors.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_raw_storage_iter.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_relops.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_rope.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_set.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_slist.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_stack.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_string_fwd.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_tempbuf.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_threads.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_tree.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_uninitialized.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_vector.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\tempbuf.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\tree.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\type_traits.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\vector.h">
+      <Filter>sgi_stl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\algorithm">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\bitset">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\deque">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\functional">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hash_map">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hash_set">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\iterator">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\limits">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\list">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\map">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\memory">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\numeric">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\pthread_alloc">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\queue">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\rope">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\set">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\slist">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stack">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stdexcept">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\string">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\utility">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\valarray">
+      <Filter>sgi_stl</Filter>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\vector">
+      <Filter>sgi_stl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

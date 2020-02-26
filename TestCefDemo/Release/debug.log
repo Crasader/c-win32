@@ -1,0 +1,6 @@
+[0806/013208.749:ERROR:gl_surface_egl.cc(693)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0806/013208.821:INFO:media_foundation_video_encode_accelerator_win.cc(329)] Windows versions earlier than 8 are not supported.
+[0806/013208.822:INFO:media_foundation_video_encode_accelerator_win.cc(329)] Windows versions earlier than 8 are not supported.
+[0806/013227.646:ERROR:gl_surface_egl.cc(693)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0806/013227.671:INFO:media_foundation_video_encode_accelerator_win.cc(329)] Windows versions earlier than 8 are not supported.
+[0806/013227.672:INFO:media_foundation_video_encode_accelerator_win.cc(329)] Windows versions earlier than 8 are not supported.

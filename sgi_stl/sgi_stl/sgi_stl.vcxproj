@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B9AC9899-9702-4854-8D50-479264806DA1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>sgi_stl</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\algo.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\algobase.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\alloc.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\bvector.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\char_traits.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\concept_checks.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\container_concepts.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\defalloc.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\deque.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\function.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hashtable.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hash_map.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hash_set.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\heap.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\iterator.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\list.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\map.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\multimap.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\multiset.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\pair.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\pthread_alloc.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\rope.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\ropeimpl.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\sequence_concepts.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\set.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\slist.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stack.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_algo.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_algobase.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_alloc.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_bvector.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_config.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_construct.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_ctraits_fns.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_deque.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_exception.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_function.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_hashtable.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_hash_fun.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_hash_map.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_hash_set.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_heap.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_iterator.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_iterator_base.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_list.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_map.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_multimap.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_multiset.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_numeric.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_pair.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_queue.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_range_errors.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_raw_storage_iter.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_relops.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_rope.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_set.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_slist.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_stack.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_string_fwd.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_tempbuf.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_threads.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_tree.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_uninitialized.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stl_vector.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\tempbuf.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\tree.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\type_traits.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\algorithm" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\bitset" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\deque" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\functional" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hash_map" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\hash_set" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\iterator" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\limits" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\list" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\map" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\memory" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\numeric" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\pthread_alloc" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\queue" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\rope" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\set" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\slist" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stack" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\stdexcept" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\string" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\utility" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\valarray" />
+    <None Include="C:\Users\Administrator\Desktop\po笔记\stl\sgi_stl\vector" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Window size="380,250" caption="0,0,0,75">
+	<VerticalLayout >
+		<HorizontalLayout pos="0,0,0,75" bkimage="add无标题.png">
+			<Button name="Closebtn" pos="0,0,25,25" padding="355,0,0,0" normalimage="QQ截图20171018202640.jpg" hotimage="QQ截图20171018202655.jpg"/>
+			<Text pos="90,0,290,10" float="true" bkimage="QQ截图20171018202611.jpg"/>
+		</HorizontalLayout>
+		<HorizontalLayout bkimage="add无标题1.png">
+			<Button name="SendAddMsg" pos="111,105,251,140" float="true" normalimage="QQ截图20171018202748.jpg" hotimage="QQ截图20171018202803.jpg" pushedimage="QQ截图20171018205925.jpg" disabledimage="QQ截图20171018202714.jpg"/>
+			<Edit name="AccoutnEdit" pos="66,40,316,70" float="true" bkcolor="#FF0E1116" bordercolor="#FF333841" focusbordercolor="#FF1D5E98" bordersize="1" textcolor="#FFFFFFFF" nativebkcolor="#FF0E1116"/>
+		</HorizontalLayout>
+	</VerticalLayout >
+</Window>
+
